@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dozie | Computer Science Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #212529;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid #0d6efd;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .project {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0d6efd;
+      color: white;
+      margin-top: 2rem;
+    }
+    a {
+      color: #0d6efd;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dozie</h1>
+    <p>Computer Science Student @ Wilfrid Laurier University</p>
+    <p>
+      <a href="https://www.linkedin.com" style="color:white; margin: 0 10px;">LinkedIn</a> |
+      <a href="https://github.com" style="color:white; margin: 0 10px;">GitHub</a> |
+      <a href="mailto:doziee123@gmail.com" style="color:white; margin: 0 10px;">Email</a>
+    </p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a 17-year-old aspiring software developer studying Computer Science at Laurier. I enjoy learning new programming languages and working on data-driven projects. My interests include full-stack development, algorithms, and data science.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Expense Tracker App</h3>
+        <p>A web-based expense manager that helps users categorize spending and visualize trends.</p>
+        <p><strong>Tech:</strong> Python, Flask, MySQL</p>
+        <p><a href="#">GitHub</a> | <a href="#">Live Demo</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Weather Dashboard</h3>
+        <p>An interactive web app that displays real-time weather data using a public API.</p>
+        <p><strong>Tech:</strong> JavaScript, HTML, CSS</p>
+        <p><a href="#">GitHub</a> | <a href="#">Live Demo</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Data Visualization Tool</h3>
+        <p>Created Python scripts for visualizing large datasets and generating reports automatically.</p>
+        <p><strong>Tech:</strong> Python, Matplotlib, Pandas</p>
+        <p><a href="#">GitHub</a> | <a href="#">Live Demo</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to connect, feel free to reach out on <a href="https://www.linkedin.com">LinkedIn</a> or send me an <a href="mailto:doziee123@gmail.com">email</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Dozie | Built with ❤️ using HTML & CSS</p>
+  </footer>
+</body>
+</html>
